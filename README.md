@@ -1,70 +1,77 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# React – TP JSX et Composition
 
-## Available Scripts
+## 📖 Description
+Ce projet est une **application React** qui illustre les concepts de **JSX**, de la **composition de composants**, et de l’utilisation des **Higher-Order Components (HOC)**.  
+Il met en avant la modularité et la réutilisabilité des composants dans une architecture claire et pédagogique.
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## 📂 Structure du projet
+```
+TP-JSX-Composition/
+├── src/
+│   ├── App.js
+│   ├── Button.js
+│   ├── ButtonWithLogging.js
+│   ├── Counter.js
+│   ├── DataLoader.js
+│   ├── Greeting.js
+│   ├── JSXDemo.js
+│   ├── withLogging.js
+│   ├── Counter.test.js
+│   └── Greeting.test.js
+└── public/
+```
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## ⚙️ Fonctionnalités
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Démo JSX
+- Utilisation de **JSX** pour créer des éléments React.  
+- Exemple avec un titre et un champ input.  
 
-### `npm run build`
+### Bouton avec HOC
+- Composant `Button` affichant un label.  
+- HOC `withLogging` qui ajoute un comportement de log des props.  
+- `ButtonWithLogging` combine les deux pour démontrer la composition.  
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Counter
+- Composant utilisant **`useState`** pour gérer un compteur.  
+- Incrémentation au clic sur le bouton.  
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### DataLoader
+- Composant qui reçoit une fonction `render` en props.  
+- Permet de charger et afficher dynamiquement une liste de données.  
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Greeting
+- Composant affichant un message de bienvenue avec un nom passé en props.  
 
-### `npm run eject`
+---
+## 🖥️ Exemple d’exécution:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+https://github.com/user-attachments/assets/2bb06da1-cecc-4f0a-9e2b-a23f4b5d2b76
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
 
-### Code Splitting
+## 💡 Concepts pratiqués
+- Syntaxe et utilisation de **JSX**.  
+- Création et utilisation de **Higher-Order Components (HOC)**.  
+- Composition de composants pour une meilleure réutilisabilité.  
+- Gestion d’état avec **useState**.  
+- Tests unitaires avec **React Testing Library**.  
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+---
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## 🧑‍💻 Auteur
+👤 **MAJJATI MOHAMED TAHA**  
+⚛️ Développement React <br>
+🎓 Instructor : **Mr. LACHGAR**  
+📅 24 Avril 2026
